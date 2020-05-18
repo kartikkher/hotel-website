@@ -80,7 +80,8 @@ p {
 }
 
 .l-heading {
-	font-size: 40px;
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -99,14 +100,14 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
 
 #navbar ul {
-  list-style: none;
   float: right;
+  list-style: none;
 }
 
 #navbar ul li {
@@ -144,12 +145,12 @@ p {
 
 #showcase .showcase-content p {
   padding-bottom: 20px;
-  line-height: 1.7em;;
+  line-height: 1.7em;
 }
 
 /* Home info */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -206,7 +207,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-	height: 600px;
+	height: 100%;
 	background: url('../img/test-bg.jpg') no-repeat center center/cover;
 	padding-top: 100px;
 }
